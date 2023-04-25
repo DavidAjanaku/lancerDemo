@@ -1,0 +1,299 @@
+.search_container__flex {
+  margin: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.col-1--search__jobs {
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: nonex;
+}
+
+.search__job--box {
+  width: 75%;
+}
+
+.search__form {
+  display: flex;
+  align-items: center;
+}
+
+.search__form input {
+  width: 90%;
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  padding: 25px 10px;
+  font-size: 16px;
+}
+
+.bg-green {
+  --bg-opacity: 1;
+  background-color: #38a169;
+  background-color: rgba(56, 161, 105, var(--bg-opacity));
+  /* height: 2.5rem; */
+  border: none;
+  padding: 14px 18px;
+}
+
+.search_icon {
+  font-size: 2rem;
+  color: white;
+}
+
+.bg-white {
+  --text-opacity: 1;
+  color: #38a169;
+  color: rgba(56, 161, 105, var(--text-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: none;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.col-2 {
+  margin-top: 1.25rem;
+}
+
+.job-cards__container {
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.job_cards {
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --bg-opacity: 1;
+  background-color: #cbd5e0;
+  background-color: rgba(203, 213, 224, var(--bg-opacity));
+  margin: 10px;
+  align-items: center;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.px-3 h3 {
+  font-weight: 400;
+}
+
+.job-pages {
+  font-weight: 400;
+}
+
+.text-green a {
+  --text-opacity: 1;
+  color: #38a169;
+  color: rgba(56, 161, 105, var(--text-opacity));
+}
+
+.col-3 {
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.job-card__wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.job-card__contents {
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 0 20px 0;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.job-name {
+  color: rgba(26, 32, 44, var(--text-opacity));
+  font-weight: 100;
+}
+
+.job-time {
+  font-weight: 400;
+}
+
+.pagination-flex {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.shadow-sm a {
+  --bg-opacity: 1;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
+  padding: 1rem 2rem;
+  margin: 1rem;
+  align-items: center;
+  color: #4a5568;
+}
+
+nav {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-2 .job_cards {
+  margin-left: 0;
+}
+
+select {
+  border: none;
+  padding: 10px;
+}
+
+.flex-wrap {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sort-select {
+  margin-right: 10px;
+}
+
+.text-base {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  .search__job--box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .search_container__flex {
+    margin: 20px;
+  }
+
+  .job_found_value {
+    margin-bottom: 20px;
+  }
+}
+
+.proposal_lancer-btn {
+  padding: 5px 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.lancer-btn {
+  border: 1px solid #bfbfbf;
+}
+
+.green-btn {
+  background: #38a169;
+  color: #fff;
+}
+
+.job-gap {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  color: #3f3e3e;
+}
+
+a {
+  text-decoration: none;
+  color: #3f3e3e;
+}
+
+
+
+.contact_wrapper{
+  display: flex;
+}
+
+
+.contact_wrapper a{
+  display: flex;
+}
+
+.contact-section__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 0;
+}
+
+.contact-section__col-1{
+text-align: center;
+}
+
+
+.contact-section__form input, textarea{
+  display: block;
+  border: 1px solid;
+  margin: 20px auto;
+  width: 50%;
+  padding: 10px;
+  border-color: #e8e8e8;
+}
+
+.contact-section__form form{ 
+justify-content: center;}
+
+.contact-section__col-2_cards--container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.contact-section__col-2__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7faf7;
+    padding: 20px 10px;
+    margin: 0 21px 20px 0;
+    flex-wrap: wrap;
+}
+
+.col-header h3{
+  margin: 0  0 20px 0;
+}
+
+.col-link a{ 
+  color: #0000ee;
+}
+
+
+@media screen and (max-width: 500px){
+
+  
+  .contact-section__grid{
+    display: block;
+  }
+
+  .contact-section__col-2__card {
+    width: 80%;
+    margin: auto;
+  }
+
+  .contact-section__form input, textarea {
+    width: 80%;
+}
+
+
+}
+
+
+
